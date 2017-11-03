@@ -16,9 +16,16 @@ To starting project development:
 
 Use `git pull` to get fresh updates from repository.
 
+# Workshop steps
+
 Workshop progress is saved in form of separate commits with tags `step-NNN`.
 In order to move to specific step use
 ``git checkout tags/step-NNN`` where `NNN` is zero padded number of desired step.
 
-# Step 0 - front end project initialization
+Run `npm install` if any dependencies are changed when switching steps.
+
+## Step 0 - front end project initialization
 Front-end project is initialized using Angular CLI utility `ng new front-end` and is committed "as-is".
+
+## Step 1 - initial structure of application page
+Adding basic application page structure: navigation *header* with links to List and Tree views, page *content* section and *footer*.
