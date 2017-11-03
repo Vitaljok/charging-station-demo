@@ -29,3 +29,8 @@ Front-end project is initialized using Angular CLI utility `ng new front-end` an
 
 ## Step 1 - initial structure of application page
 Adding basic application page structure: navigation *header* with links to List and Tree views, page *content* section and *footer*.
+
+## Step 2 - Bootstrap library and styling
+* Added [Bootstrap](http://getbootstrap.com/) library `npm install --save bootstrap@4.0.0-beta.2`
+* Included Bootstrap styles into compilation configuration `.angular-cli.json`
+* Styled application page
