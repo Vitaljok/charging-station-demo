@@ -39,3 +39,8 @@ Adding basic application page structure: navigation *header* with links to List 
 * Added `ChargingStation` class
 * Initialized two distinct variables
 * Used initialized variables in the template
+
+## Step 4 - Using array of charging stations on page
+* Changed charging stations variables to array
+* Used `ngFor` directive in template
+* Adding conditional styling via `ngClass` directive

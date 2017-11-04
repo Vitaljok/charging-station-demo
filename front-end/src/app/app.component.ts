@@ -17,16 +17,11 @@ class ChargingStation {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  // instance initialization via constructor
-  firstStation: ChargingStation = new ChargingStation(1, 'Jelgava', 'Liela iela 2');
-
-  // instance initialization via JSON notation
-  secondStation: ChargingStation = {
-    id: 2,
-    address: 'Akademijas iela 23',
-    city: 'Jelgava',
-    power: 20,
-    isActive: false,
-    price: 0.57
-  };
+  stations:ChargingStation[] = [
+    new ChargingStation(1, 'Jelgava', 'Liela iela 2'),
+    new ChargingStation(2, 'Jelgava', 'Akademijas iela 23', false),
+    new ChargingStation(3, 'Jelgava', 'Čakstes bulvāris 5'),
+    new ChargingStation(4, 'Rīga', 'Brīvības iela 123'),
+    new ChargingStation(5, 'Rīga', 'Balasta dambis 1a', false),
+  ];
 }
