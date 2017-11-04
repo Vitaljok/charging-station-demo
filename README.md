@@ -34,3 +34,8 @@ Adding basic application page structure: navigation *header* with links to List 
 * Added [Bootstrap](http://getbootstrap.com/) library `npm install --save bootstrap@4.0.0-beta.2`
 * Included Bootstrap styles into compilation configuration `.angular-cli.json`
 * Styled application page
+
+## Step 3 - Using standalone charging station variables on page
+* Added `ChargingStation` class
+* Initialized two distinct variables
+* Used initialized variables in the template

@@ -15,9 +15,16 @@
 </header>
 <main>
   <div class="container-fluid">
-    <h3>List of charging stations</h3>
-    <section>
-      <p>Page content goes here</p>
+    <section class="mt-3">
+      <h3>List of charging stations</h3>
+      <ul class="list-group d-inline-block">
+        <li class="list-group-item list-group-item-action">
+          {{firstStation.city}}, {{firstStation.address}}
+        </li>
+        <li class="list-group-item list-group-item-action">
+          {{secondStation.city}}, {{secondStation.address}}
+        </li>
+      </ul>
     </section>
   </div>
 </main>
