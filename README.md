@@ -20,7 +20,7 @@ Use `git pull` to get fresh updates from repository.
 
 Workshop progress is saved in form of separate commits with tags `step-NNN`.
 In order to move to specific step use
-``git checkout tags/step-NNN`` where `NNN` is zero padded number of desired step.
+`git checkout tags/step-NNN` where `NNN` is zero padded number of desired step, for example `git checkout tags/step-004`.
 
 Run `npm install` if any dependencies are changed when switching steps.
 
@@ -44,3 +44,11 @@ Adding basic application page structure: navigation *header* with links to List 
 * Changed charging stations variables to array
 * Used `ngFor` directive in template
 * Adding conditional styling via `ngClass` directive
+
+## Step 5 - Refactoring internal component variables to data service
+* Created service using `ng generate service Data`
+* Moved `stations` array from component to service
+* Moved `ChargingStation` class to separate `domain.ts` file and used imports
+* Added fake processing delay to service method
+* Defined `DataService` in module providers to get *dependency injection* work
+* Injected `DataService` into component's constructor and used it during `OnInit` life-cycle hook.
