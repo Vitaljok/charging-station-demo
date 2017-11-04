@@ -13,6 +13,13 @@ export class AppComponent implements OnInit {
   constructor(private service: DataService) { }
 
   ngOnInit(): void {
-    this.stations = this.service.getStations();
+    // observable starts processing when subscribe() method is called
+    this.service.getStations().subscribe(
+      (data: ChargingStation[]) => {
+        // code inside lambda will be executed asynchronously when data arrives
+        // any complex logic might be implemented here
+        this.stations = data;
+      }
+    );
   }
 }

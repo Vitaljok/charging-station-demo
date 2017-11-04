@@ -1,5 +1,10 @@
 import { Injectable } from '@angular/core';
-import { ChargingStation } from "./domain";
+
+import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/observable/of';
+import 'rxjs/add/operator/delay';
+
+import { ChargingStation } from './domain';
 
 @Injectable()
 export class DataService {
@@ -13,12 +18,9 @@ export class DataService {
 
   constructor() { }
 
-  getStations():ChargingStation[] {
+  getStations(): Observable<ChargingStation[]> {
     // WARNING!
     // Fake processing delay used for demonstration purposes.
-    let start = Date.now();
-    while (Date.now() < start + 2000) {}
-
-    return this.stations;
+    return Observable.of(this.stations).delay(2000);
   }
 }

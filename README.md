@@ -52,3 +52,7 @@ Adding basic application page structure: navigation *header* with links to List 
 * Added fake processing delay to service method
 * Defined `DataService` in module providers to get *dependency injection* work
 * Injected `DataService` into component's constructor and used it during `OnInit` life-cycle hook.
+
+## Step 6 - Moving to asynchronous service processing using Observables
+* Changed service method to return `Observable`
+* Used subscription approach to get data asynchronously
