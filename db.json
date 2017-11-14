@@ -1,0 +1,2046 @@
+{
+  "stations": [
+    {
+      "isActive": true,
+      "id": 1,
+      "city": "Rēzekne",
+      "address": "Tilta bulvāris 93",
+      "price": 0.83,
+      "power": 19
+    },
+    {
+      "isActive": false,
+      "id": 2,
+      "city": "Jelgava",
+      "address": "Pasta bulvāris 47",
+      "price": 0.94,
+      "power": 25
+    },
+    {
+      "isActive": false,
+      "id": 3,
+      "city": "Liepāja",
+      "address": "Stacijas prospekts 1",
+      "price": 1.04,
+      "power": 13
+    },
+    {
+      "isActive": false,
+      "id": 4,
+      "city": "Ventspils",
+      "address": "Stacijas iela 143",
+      "price": 1.19,
+      "power": 6
+    },
+    {
+      "isActive": true,
+      "id": 5,
+      "city": "Ventspils",
+      "address": "Baznīcas prospekts 75",
+      "price": 1.17,
+      "power": 13
+    },
+    {
+      "isActive": true,
+      "id": 6,
+      "city": "Liepāja",
+      "address": "Baznīcas iela 128",
+      "price": 1.02,
+      "power": 8
+    },
+    {
+      "isActive": true,
+      "id": 7,
+      "city": "Liepāja",
+      "address": "Baznīcas laukums 51",
+      "price": 1.15,
+      "power": 24
+    },
+    {
+      "isActive": false,
+      "id": 8,
+      "city": "Liepāja",
+      "address": "Stacijas iela 139",
+      "price": 0.91,
+      "power": 7
+    },
+    {
+      "isActive": true,
+      "id": 9,
+      "city": "Daugavpils",
+      "address": "Saules laukums 90",
+      "price": 1.01,
+      "power": 21
+    },
+    {
+      "isActive": true,
+      "id": 10,
+      "city": "Liepāja",
+      "address": "Stacijas iela 127",
+      "price": 0.99,
+      "power": 9
+    },
+    {
+      "isActive": false,
+      "id": 11,
+      "city": "Jelgava",
+      "address": "Brīvības bulvāris 109",
+      "price": 0.69,
+      "power": 13
+    },
+    {
+      "isActive": true,
+      "id": 12,
+      "city": "Daugavpils",
+      "address": "Tilta laukums 5",
+      "price": 0.88,
+      "power": 6
+    },
+    {
+      "isActive": false,
+      "id": 13,
+      "city": "Rēzekne",
+      "address": "Brīvības iela 90",
+      "price": 0.79,
+      "power": 9
+    },
+    {
+      "isActive": false,
+      "id": 14,
+      "city": "Jelgava",
+      "address": "Pils prospekts 144",
+      "price": 1.18,
+      "power": 25
+    },
+    {
+      "isActive": true,
+      "id": 15,
+      "city": "Ventspils",
+      "address": "Tilta laukums 147",
+      "price": 0.91,
+      "power": 15
+    },
+    {
+      "isActive": false,
+      "id": 16,
+      "city": "Liepāja",
+      "address": "Pasta dambis 83",
+      "price": 0.6,
+      "power": 11
+    },
+    {
+      "isActive": true,
+      "id": 17,
+      "city": "Jelgava",
+      "address": "Brīvības dambis 30",
+      "price": 1.09,
+      "power": 12
+    },
+    {
+      "isActive": true,
+      "id": 18,
+      "city": "Daugavpils",
+      "address": "Saules dambis 9",
+      "price": 0.94,
+      "power": 19
+    },
+    {
+      "isActive": true,
+      "id": 19,
+      "city": "Rīga",
+      "address": "Saules prospekts 138",
+      "price": 0.68,
+      "power": 19
+    },
+    {
+      "isActive": true,
+      "id": 20,
+      "city": "Rīga",
+      "address": "Tilta dambis 139",
+      "price": 0.85,
+      "power": 10
+    },
+    {
+      "isActive": true,
+      "id": 21,
+      "city": "Daugavpils",
+      "address": "Tilta iela 120",
+      "price": 0.6,
+      "power": 22
+    },
+    {
+      "isActive": true,
+      "id": 22,
+      "city": "Liepāja",
+      "address": "Saules iela 109",
+      "price": 1.12,
+      "power": 19
+    },
+    {
+      "isActive": true,
+      "id": 23,
+      "city": "Rēzekne",
+      "address": "Stacijas dambis 40",
+      "price": 1.01,
+      "power": 8
+    },
+    {
+      "isActive": true,
+      "id": 24,
+      "city": "Jelgava",
+      "address": "Krasta prospekts 134",
+      "price": 1.18,
+      "power": 17
+    },
+    {
+      "isActive": true,
+      "id": 25,
+      "city": "Daugavpils",
+      "address": "Stacijas dambis 108",
+      "price": 0.94,
+      "power": 22
+    },
+    {
+      "isActive": true,
+      "id": 26,
+      "city": "Ventspils",
+      "address": "Baznīcas laukums 129",
+      "price": 0.75,
+      "power": 24
+    },
+    {
+      "isActive": true,
+      "id": 27,
+      "city": "Rīga",
+      "address": "Pils laukums 75",
+      "price": 0.97,
+      "power": 14
+    },
+    {
+      "isActive": false,
+      "id": 28,
+      "city": "Rēzekne",
+      "address": "Krasta iela 116",
+      "price": 0.7,
+      "power": 10
+    },
+    {
+      "isActive": true,
+      "id": 29,
+      "city": "Jelgava",
+      "address": "Pasta prospekts 59",
+      "price": 0.77,
+      "power": 24
+    },
+    {
+      "isActive": false,
+      "id": 30,
+      "city": "Jelgava",
+      "address": "Pils prospekts 43",
+      "price": 0.84,
+      "power": 18
+    }
+  ],
+  "transactions": [
+    {
+      "station_id": 78,
+      "user": "Sandra",
+      "amount": 1.61,
+      "id": 1
+    },
+    {
+      "station_id": 1,
+      "user": "Marta",
+      "amount": 1.42,
+      "id": 2
+    },
+    {
+      "station_id": 22,
+      "user": "Līga",
+      "amount": 2.53,
+      "id": 3
+    },
+    {
+      "station_id": 51,
+      "user": "Jānis",
+      "amount": 1.83,
+      "id": 4
+    },
+    {
+      "station_id": 32,
+      "user": "Helēna",
+      "amount": 2.75,
+      "id": 5
+    },
+    {
+      "station_id": 31,
+      "user": "Andris",
+      "amount": 2.01,
+      "id": 6
+    },
+    {
+      "station_id": 50,
+      "user": "Līga",
+      "amount": 1.76,
+      "id": 7
+    },
+    {
+      "station_id": 1,
+      "user": "Jānis",
+      "amount": 2.49,
+      "id": 8
+    },
+    {
+      "station_id": 5,
+      "user": "Sandra",
+      "amount": 1.97,
+      "id": 9
+    },
+    {
+      "station_id": 3,
+      "user": "Jānis",
+      "amount": 1.88,
+      "id": 10
+    },
+    {
+      "station_id": 2,
+      "user": "Marta",
+      "amount": 2.57,
+      "id": 11
+    },
+    {
+      "station_id": 24,
+      "user": "Andris",
+      "amount": 2.02,
+      "id": 12
+    },
+    {
+      "station_id": 18,
+      "user": "Līga",
+      "amount": 2.27,
+      "id": 13
+    },
+    {
+      "station_id": 69,
+      "user": "Helēna",
+      "amount": 2.53,
+      "id": 14
+    },
+    {
+      "station_id": 2,
+      "user": "Andris",
+      "amount": 2.26,
+      "id": 15
+    },
+    {
+      "station_id": 85,
+      "user": "Helēna",
+      "amount": 2.39,
+      "id": 16
+    },
+    {
+      "station_id": 40,
+      "user": "Jānis",
+      "amount": 2.43,
+      "id": 17
+    },
+    {
+      "station_id": 74,
+      "user": "Juris",
+      "amount": 1.45,
+      "id": 18
+    },
+    {
+      "station_id": 89,
+      "user": "Marta",
+      "amount": 2.32,
+      "id": 19
+    },
+    {
+      "station_id": 18,
+      "user": "Līga",
+      "amount": 1.57,
+      "id": 20
+    },
+    {
+      "station_id": 43,
+      "user": "Oskars",
+      "amount": 2.51,
+      "id": 21
+    },
+    {
+      "station_id": 95,
+      "user": "Marta",
+      "amount": 2.3,
+      "id": 22
+    },
+    {
+      "station_id": 23,
+      "user": "Sandra",
+      "amount": 1.54,
+      "id": 23
+    },
+    {
+      "station_id": 24,
+      "user": "Juris",
+      "amount": 1.46,
+      "id": 24
+    },
+    {
+      "station_id": 13,
+      "user": "Andris",
+      "amount": 2.49,
+      "id": 25
+    },
+    {
+      "station_id": 64,
+      "user": "Marta",
+      "amount": 2.38,
+      "id": 26
+    },
+    {
+      "station_id": 4,
+      "user": "Helēna",
+      "amount": 1.36,
+      "id": 27
+    },
+    {
+      "station_id": 16,
+      "user": "Juris",
+      "amount": 1.48,
+      "id": 28
+    },
+    {
+      "station_id": 53,
+      "user": "Helēna",
+      "amount": 1.79,
+      "id": 29
+    },
+    {
+      "station_id": 29,
+      "user": "Andris",
+      "amount": 1.42,
+      "id": 30
+    },
+    {
+      "station_id": 56,
+      "user": "Andris",
+      "amount": 2.68,
+      "id": 31
+    },
+    {
+      "station_id": 51,
+      "user": "Jānis",
+      "amount": 2.54,
+      "id": 32
+    },
+    {
+      "station_id": 65,
+      "user": "Oskars",
+      "amount": 1.59,
+      "id": 33
+    },
+    {
+      "station_id": 15,
+      "user": "Helēna",
+      "amount": 2.5,
+      "id": 34
+    },
+    {
+      "station_id": 19,
+      "user": "Oskars",
+      "amount": 1.91,
+      "id": 35
+    },
+    {
+      "station_id": 3,
+      "user": "Līga",
+      "amount": 2.28,
+      "id": 36
+    },
+    {
+      "station_id": 55,
+      "user": "Juris",
+      "amount": 1.65,
+      "id": 37
+    },
+    {
+      "station_id": 71,
+      "user": "Oskars",
+      "amount": 1.67,
+      "id": 38
+    },
+    {
+      "station_id": 86,
+      "user": "Helēna",
+      "amount": 1.9,
+      "id": 39
+    },
+    {
+      "station_id": 80,
+      "user": "Juris",
+      "amount": 2.87,
+      "id": 40
+    },
+    {
+      "station_id": 28,
+      "user": "Līga",
+      "amount": 1.8,
+      "id": 41
+    },
+    {
+      "station_id": 25,
+      "user": "Līga",
+      "amount": 1.67,
+      "id": 42
+    },
+    {
+      "station_id": 55,
+      "user": "Sandra",
+      "amount": 2.2,
+      "id": 43
+    },
+    {
+      "station_id": 12,
+      "user": "Helēna",
+      "amount": 2.48,
+      "id": 44
+    },
+    {
+      "station_id": 23,
+      "user": "Līga",
+      "amount": 1.68,
+      "id": 45
+    },
+    {
+      "station_id": 82,
+      "user": "Marta",
+      "amount": 2.1,
+      "id": 46
+    },
+    {
+      "station_id": 77,
+      "user": "Marta",
+      "amount": 2.06,
+      "id": 47
+    },
+    {
+      "station_id": 44,
+      "user": "Oskars",
+      "amount": 1.6,
+      "id": 48
+    },
+    {
+      "station_id": 95,
+      "user": "Juris",
+      "amount": 1.41,
+      "id": 49
+    },
+    {
+      "station_id": 71,
+      "user": "Jānis",
+      "amount": 1.35,
+      "id": 50
+    },
+    {
+      "station_id": 91,
+      "user": "Marta",
+      "amount": 2.57,
+      "id": 51
+    },
+    {
+      "station_id": 53,
+      "user": "Andris",
+      "amount": 2.02,
+      "id": 52
+    },
+    {
+      "station_id": 20,
+      "user": "Jānis",
+      "amount": 2.65,
+      "id": 53
+    },
+    {
+      "station_id": 59,
+      "user": "Andris",
+      "amount": 1.39,
+      "id": 54
+    },
+    {
+      "station_id": 92,
+      "user": "Līga",
+      "amount": 2.53,
+      "id": 55
+    },
+    {
+      "station_id": 37,
+      "user": "Sandra",
+      "amount": 2.54,
+      "id": 56
+    },
+    {
+      "station_id": 56,
+      "user": "Sandra",
+      "amount": 1.33,
+      "id": 57
+    },
+    {
+      "station_id": 8,
+      "user": "Jānis",
+      "amount": 2.21,
+      "id": 58
+    },
+    {
+      "station_id": 81,
+      "user": "Andris",
+      "amount": 1.82,
+      "id": 59
+    },
+    {
+      "station_id": 46,
+      "user": "Līga",
+      "amount": 2.39,
+      "id": 60
+    },
+    {
+      "station_id": 97,
+      "user": "Līga",
+      "amount": 2.51,
+      "id": 61
+    },
+    {
+      "station_id": 67,
+      "user": "Marta",
+      "amount": 1.57,
+      "id": 62
+    },
+    {
+      "station_id": 35,
+      "user": "Jānis",
+      "amount": 2.43,
+      "id": 63
+    },
+    {
+      "station_id": 18,
+      "user": "Oskars",
+      "amount": 1.53,
+      "id": 64
+    },
+    {
+      "station_id": 41,
+      "user": "Līga",
+      "amount": 1.95,
+      "id": 65
+    },
+    {
+      "station_id": 76,
+      "user": "Līga",
+      "amount": 2.28,
+      "id": 66
+    },
+    {
+      "station_id": 9,
+      "user": "Oskars",
+      "amount": 2.72,
+      "id": 67
+    },
+    {
+      "station_id": 3,
+      "user": "Andris",
+      "amount": 2.56,
+      "id": 68
+    },
+    {
+      "station_id": 65,
+      "user": "Andris",
+      "amount": 2.74,
+      "id": 69
+    },
+    {
+      "station_id": 75,
+      "user": "Helēna",
+      "amount": 2.14,
+      "id": 70
+    },
+    {
+      "station_id": 39,
+      "user": "Sandra",
+      "amount": 1.41,
+      "id": 71
+    },
+    {
+      "station_id": 37,
+      "user": "Jānis",
+      "amount": 1.78,
+      "id": 72
+    },
+    {
+      "station_id": 60,
+      "user": "Andris",
+      "amount": 1.92,
+      "id": 73
+    },
+    {
+      "station_id": 10,
+      "user": "Helēna",
+      "amount": 1.98,
+      "id": 74
+    },
+    {
+      "station_id": 29,
+      "user": "Marta",
+      "amount": 2.85,
+      "id": 75
+    },
+    {
+      "station_id": 7,
+      "user": "Marta",
+      "amount": 2.61,
+      "id": 76
+    },
+    {
+      "station_id": 64,
+      "user": "Andris",
+      "amount": 1.58,
+      "id": 77
+    },
+    {
+      "station_id": 76,
+      "user": "Oskars",
+      "amount": 1.4,
+      "id": 78
+    },
+    {
+      "station_id": 45,
+      "user": "Marta",
+      "amount": 1.91,
+      "id": 79
+    },
+    {
+      "station_id": 31,
+      "user": "Juris",
+      "amount": 2.8,
+      "id": 80
+    },
+    {
+      "station_id": 62,
+      "user": "Marta",
+      "amount": 1.65,
+      "id": 81
+    },
+    {
+      "station_id": 85,
+      "user": "Juris",
+      "amount": 2.66,
+      "id": 82
+    },
+    {
+      "station_id": 30,
+      "user": "Līga",
+      "amount": 1.66,
+      "id": 83
+    },
+    {
+      "station_id": 27,
+      "user": "Andris",
+      "amount": 2.34,
+      "id": 84
+    },
+    {
+      "station_id": 6,
+      "user": "Līga",
+      "amount": 2.14,
+      "id": 85
+    },
+    {
+      "station_id": 91,
+      "user": "Helēna",
+      "amount": 2.6,
+      "id": 86
+    },
+    {
+      "station_id": 45,
+      "user": "Helēna",
+      "amount": 1.38,
+      "id": 87
+    },
+    {
+      "station_id": 63,
+      "user": "Jānis",
+      "amount": 2.35,
+      "id": 88
+    },
+    {
+      "station_id": 28,
+      "user": "Līga",
+      "amount": 2.75,
+      "id": 89
+    },
+    {
+      "station_id": 55,
+      "user": "Andris",
+      "amount": 2.48,
+      "id": 90
+    },
+    {
+      "station_id": 49,
+      "user": "Helēna",
+      "amount": 2.52,
+      "id": 91
+    },
+    {
+      "station_id": 46,
+      "user": "Helēna",
+      "amount": 2.79,
+      "id": 92
+    },
+    {
+      "station_id": 20,
+      "user": "Oskars",
+      "amount": 1.69,
+      "id": 93
+    },
+    {
+      "station_id": 55,
+      "user": "Oskars",
+      "amount": 1.46,
+      "id": 94
+    },
+    {
+      "station_id": 65,
+      "user": "Andris",
+      "amount": 1.58,
+      "id": 95
+    },
+    {
+      "station_id": 70,
+      "user": "Jānis",
+      "amount": 2.75,
+      "id": 96
+    },
+    {
+      "station_id": 69,
+      "user": "Jānis",
+      "amount": 1.83,
+      "id": 97
+    },
+    {
+      "station_id": 45,
+      "user": "Marta",
+      "amount": 1.66,
+      "id": 98
+    },
+    {
+      "station_id": 58,
+      "user": "Helēna",
+      "amount": 1.69,
+      "id": 99
+    },
+    {
+      "station_id": 4,
+      "user": "Līga",
+      "amount": 1.6,
+      "id": 100
+    },
+    {
+      "station_id": 80,
+      "user": "Oskars",
+      "amount": 1.86,
+      "id": 101
+    },
+    {
+      "station_id": 83,
+      "user": "Andris",
+      "amount": 1.46,
+      "id": 102
+    },
+    {
+      "station_id": 71,
+      "user": "Helēna",
+      "amount": 2.25,
+      "id": 103
+    },
+    {
+      "station_id": 40,
+      "user": "Oskars",
+      "amount": 1.69,
+      "id": 104
+    },
+    {
+      "station_id": 86,
+      "user": "Marta",
+      "amount": 1.44,
+      "id": 105
+    },
+    {
+      "station_id": 17,
+      "user": "Līga",
+      "amount": 1.54,
+      "id": 106
+    },
+    {
+      "station_id": 14,
+      "user": "Andris",
+      "amount": 1.96,
+      "id": 107
+    },
+    {
+      "station_id": 93,
+      "user": "Oskars",
+      "amount": 1.82,
+      "id": 108
+    },
+    {
+      "station_id": 32,
+      "user": "Jānis",
+      "amount": 1.32,
+      "id": 109
+    },
+    {
+      "station_id": 21,
+      "user": "Helēna",
+      "amount": 1.81,
+      "id": 110
+    },
+    {
+      "station_id": 78,
+      "user": "Juris",
+      "amount": 1.3,
+      "id": 111
+    },
+    {
+      "station_id": 59,
+      "user": "Juris",
+      "amount": 2.21,
+      "id": 112
+    },
+    {
+      "station_id": 51,
+      "user": "Jānis",
+      "amount": 1.6,
+      "id": 113
+    },
+    {
+      "station_id": 89,
+      "user": "Juris",
+      "amount": 1.57,
+      "id": 114
+    },
+    {
+      "station_id": 23,
+      "user": "Līga",
+      "amount": 1.57,
+      "id": 115
+    },
+    {
+      "station_id": 17,
+      "user": "Oskars",
+      "amount": 1.86,
+      "id": 116
+    },
+    {
+      "station_id": 38,
+      "user": "Helēna",
+      "amount": 1.39,
+      "id": 117
+    },
+    {
+      "station_id": 100,
+      "user": "Marta",
+      "amount": 2.51,
+      "id": 118
+    },
+    {
+      "station_id": 74,
+      "user": "Helēna",
+      "amount": 1.48,
+      "id": 119
+    },
+    {
+      "station_id": 77,
+      "user": "Sandra",
+      "amount": 2.06,
+      "id": 120
+    },
+    {
+      "station_id": 72,
+      "user": "Sandra",
+      "amount": 1.87,
+      "id": 121
+    },
+    {
+      "station_id": 96,
+      "user": "Oskars",
+      "amount": 2.43,
+      "id": 122
+    },
+    {
+      "station_id": 58,
+      "user": "Marta",
+      "amount": 2.5,
+      "id": 123
+    },
+    {
+      "station_id": 23,
+      "user": "Juris",
+      "amount": 1.36,
+      "id": 124
+    },
+    {
+      "station_id": 74,
+      "user": "Jānis",
+      "amount": 1.63,
+      "id": 125
+    },
+    {
+      "station_id": 94,
+      "user": "Juris",
+      "amount": 1.99,
+      "id": 126
+    },
+    {
+      "station_id": 81,
+      "user": "Sandra",
+      "amount": 1.49,
+      "id": 127
+    },
+    {
+      "station_id": 58,
+      "user": "Andris",
+      "amount": 2.69,
+      "id": 128
+    },
+    {
+      "station_id": 32,
+      "user": "Andris",
+      "amount": 1.57,
+      "id": 129
+    },
+    {
+      "station_id": 57,
+      "user": "Līga",
+      "amount": 1.86,
+      "id": 130
+    },
+    {
+      "station_id": 18,
+      "user": "Andris",
+      "amount": 2.24,
+      "id": 131
+    },
+    {
+      "station_id": 66,
+      "user": "Marta",
+      "amount": 1.6,
+      "id": 132
+    },
+    {
+      "station_id": 5,
+      "user": "Oskars",
+      "amount": 2.77,
+      "id": 133
+    },
+    {
+      "station_id": 40,
+      "user": "Andris",
+      "amount": 2.7,
+      "id": 134
+    },
+    {
+      "station_id": 56,
+      "user": "Jānis",
+      "amount": 2.27,
+      "id": 135
+    },
+    {
+      "station_id": 100,
+      "user": "Marta",
+      "amount": 1.69,
+      "id": 136
+    },
+    {
+      "station_id": 17,
+      "user": "Oskars",
+      "amount": 2.01,
+      "id": 137
+    },
+    {
+      "station_id": 44,
+      "user": "Helēna",
+      "amount": 2.36,
+      "id": 138
+    },
+    {
+      "station_id": 100,
+      "user": "Marta",
+      "amount": 2.28,
+      "id": 139
+    },
+    {
+      "station_id": 74,
+      "user": "Helēna",
+      "amount": 2.8,
+      "id": 140
+    },
+    {
+      "station_id": 60,
+      "user": "Andris",
+      "amount": 2.4,
+      "id": 141
+    },
+    {
+      "station_id": 49,
+      "user": "Jānis",
+      "amount": 2.76,
+      "id": 142
+    },
+    {
+      "station_id": 48,
+      "user": "Andris",
+      "amount": 2.7,
+      "id": 143
+    },
+    {
+      "station_id": 86,
+      "user": "Oskars",
+      "amount": 2.35,
+      "id": 144
+    },
+    {
+      "station_id": 77,
+      "user": "Līga",
+      "amount": 1.92,
+      "id": 145
+    },
+    {
+      "station_id": 33,
+      "user": "Marta",
+      "amount": 1.78,
+      "id": 146
+    },
+    {
+      "station_id": 100,
+      "user": "Līga",
+      "amount": 2.15,
+      "id": 147
+    },
+    {
+      "station_id": 89,
+      "user": "Jānis",
+      "amount": 1.92,
+      "id": 148
+    },
+    {
+      "station_id": 18,
+      "user": "Juris",
+      "amount": 1.67,
+      "id": 149
+    },
+    {
+      "station_id": 27,
+      "user": "Marta",
+      "amount": 1.4,
+      "id": 150
+    },
+    {
+      "station_id": 57,
+      "user": "Oskars",
+      "amount": 2.4,
+      "id": 151
+    },
+    {
+      "station_id": 85,
+      "user": "Marta",
+      "amount": 1.73,
+      "id": 152
+    },
+    {
+      "station_id": 47,
+      "user": "Sandra",
+      "amount": 2.24,
+      "id": 153
+    },
+    {
+      "station_id": 84,
+      "user": "Sandra",
+      "amount": 2.19,
+      "id": 154
+    },
+    {
+      "station_id": 6,
+      "user": "Juris",
+      "amount": 2.89,
+      "id": 155
+    },
+    {
+      "station_id": 97,
+      "user": "Jānis",
+      "amount": 1.55,
+      "id": 156
+    },
+    {
+      "station_id": 5,
+      "user": "Jānis",
+      "amount": 2.22,
+      "id": 157
+    },
+    {
+      "station_id": 93,
+      "user": "Helēna",
+      "amount": 2.69,
+      "id": 158
+    },
+    {
+      "station_id": 57,
+      "user": "Sandra",
+      "amount": 2.16,
+      "id": 159
+    },
+    {
+      "station_id": 17,
+      "user": "Oskars",
+      "amount": 1.58,
+      "id": 160
+    },
+    {
+      "station_id": 98,
+      "user": "Sandra",
+      "amount": 2.3,
+      "id": 161
+    },
+    {
+      "station_id": 92,
+      "user": "Andris",
+      "amount": 2.48,
+      "id": 162
+    },
+    {
+      "station_id": 65,
+      "user": "Helēna",
+      "amount": 1.97,
+      "id": 163
+    },
+    {
+      "station_id": 99,
+      "user": "Jānis",
+      "amount": 1.93,
+      "id": 164
+    },
+    {
+      "station_id": 66,
+      "user": "Līga",
+      "amount": 2.2,
+      "id": 165
+    },
+    {
+      "station_id": 56,
+      "user": "Juris",
+      "amount": 2.1,
+      "id": 166
+    },
+    {
+      "station_id": 46,
+      "user": "Oskars",
+      "amount": 2.63,
+      "id": 167
+    },
+    {
+      "station_id": 46,
+      "user": "Līga",
+      "amount": 1.61,
+      "id": 168
+    },
+    {
+      "station_id": 24,
+      "user": "Sandra",
+      "amount": 2.67,
+      "id": 169
+    },
+    {
+      "station_id": 29,
+      "user": "Līga",
+      "amount": 2.11,
+      "id": 170
+    },
+    {
+      "station_id": 88,
+      "user": "Andris",
+      "amount": 2.43,
+      "id": 171
+    },
+    {
+      "station_id": 66,
+      "user": "Oskars",
+      "amount": 2.67,
+      "id": 172
+    },
+    {
+      "station_id": 21,
+      "user": "Jānis",
+      "amount": 2.85,
+      "id": 173
+    },
+    {
+      "station_id": 32,
+      "user": "Sandra",
+      "amount": 2.26,
+      "id": 174
+    },
+    {
+      "station_id": 72,
+      "user": "Līga",
+      "amount": 1.62,
+      "id": 175
+    },
+    {
+      "station_id": 82,
+      "user": "Marta",
+      "amount": 1.95,
+      "id": 176
+    },
+    {
+      "station_id": 72,
+      "user": "Sandra",
+      "amount": 1.65,
+      "id": 177
+    },
+    {
+      "station_id": 32,
+      "user": "Sandra",
+      "amount": 2.55,
+      "id": 178
+    },
+    {
+      "station_id": 96,
+      "user": "Līga",
+      "amount": 2.75,
+      "id": 179
+    },
+    {
+      "station_id": 11,
+      "user": "Jānis",
+      "amount": 1.8,
+      "id": 180
+    },
+    {
+      "station_id": 53,
+      "user": "Līga",
+      "amount": 2.34,
+      "id": 181
+    },
+    {
+      "station_id": 98,
+      "user": "Līga",
+      "amount": 1.59,
+      "id": 182
+    },
+    {
+      "station_id": 37,
+      "user": "Helēna",
+      "amount": 1.48,
+      "id": 183
+    },
+    {
+      "station_id": 60,
+      "user": "Līga",
+      "amount": 2.65,
+      "id": 184
+    },
+    {
+      "station_id": 86,
+      "user": "Sandra",
+      "amount": 2.81,
+      "id": 185
+    },
+    {
+      "station_id": 1,
+      "user": "Juris",
+      "amount": 1.89,
+      "id": 186
+    },
+    {
+      "station_id": 40,
+      "user": "Marta",
+      "amount": 1.69,
+      "id": 187
+    },
+    {
+      "station_id": 22,
+      "user": "Jānis",
+      "amount": 1.48,
+      "id": 188
+    },
+    {
+      "station_id": 89,
+      "user": "Sandra",
+      "amount": 1.6,
+      "id": 189
+    },
+    {
+      "station_id": 59,
+      "user": "Oskars",
+      "amount": 1.34,
+      "id": 190
+    },
+    {
+      "station_id": 58,
+      "user": "Līga",
+      "amount": 2.07,
+      "id": 191
+    },
+    {
+      "station_id": 90,
+      "user": "Oskars",
+      "amount": 1.74,
+      "id": 192
+    },
+    {
+      "station_id": 47,
+      "user": "Juris",
+      "amount": 1.82,
+      "id": 193
+    },
+    {
+      "station_id": 82,
+      "user": "Marta",
+      "amount": 2.44,
+      "id": 194
+    },
+    {
+      "station_id": 67,
+      "user": "Sandra",
+      "amount": 2.41,
+      "id": 195
+    },
+    {
+      "station_id": 78,
+      "user": "Helēna",
+      "amount": 2.3,
+      "id": 196
+    },
+    {
+      "station_id": 16,
+      "user": "Līga",
+      "amount": 2.22,
+      "id": 197
+    },
+    {
+      "station_id": 37,
+      "user": "Andris",
+      "amount": 1.87,
+      "id": 198
+    },
+    {
+      "station_id": 23,
+      "user": "Sandra",
+      "amount": 1.82,
+      "id": 199
+    },
+    {
+      "station_id": 53,
+      "user": "Marta",
+      "amount": 1.65,
+      "id": 200
+    },
+    {
+      "station_id": 57,
+      "user": "Sandra",
+      "amount": 2.26,
+      "id": 201
+    },
+    {
+      "station_id": 9,
+      "user": "Juris",
+      "amount": 1.92,
+      "id": 202
+    },
+    {
+      "station_id": 73,
+      "user": "Marta",
+      "amount": 2.13,
+      "id": 203
+    },
+    {
+      "station_id": 100,
+      "user": "Jānis",
+      "amount": 2.69,
+      "id": 204
+    },
+    {
+      "station_id": 18,
+      "user": "Helēna",
+      "amount": 1.32,
+      "id": 205
+    },
+    {
+      "station_id": 30,
+      "user": "Marta",
+      "amount": 2.17,
+      "id": 206
+    },
+    {
+      "station_id": 80,
+      "user": "Oskars",
+      "amount": 2.77,
+      "id": 207
+    },
+    {
+      "station_id": 83,
+      "user": "Andris",
+      "amount": 1.47,
+      "id": 208
+    },
+    {
+      "station_id": 53,
+      "user": "Jānis",
+      "amount": 1.92,
+      "id": 209
+    },
+    {
+      "station_id": 73,
+      "user": "Andris",
+      "amount": 1.52,
+      "id": 210
+    },
+    {
+      "station_id": 80,
+      "user": "Jānis",
+      "amount": 2.36,
+      "id": 211
+    },
+    {
+      "station_id": 35,
+      "user": "Marta",
+      "amount": 1.72,
+      "id": 212
+    },
+    {
+      "station_id": 48,
+      "user": "Sandra",
+      "amount": 1.55,
+      "id": 213
+    },
+    {
+      "station_id": 72,
+      "user": "Andris",
+      "amount": 2.8,
+      "id": 214
+    },
+    {
+      "station_id": 46,
+      "user": "Līga",
+      "amount": 2.12,
+      "id": 215
+    },
+    {
+      "station_id": 45,
+      "user": "Sandra",
+      "amount": 1.61,
+      "id": 216
+    },
+    {
+      "station_id": 68,
+      "user": "Marta",
+      "amount": 2.38,
+      "id": 217
+    },
+    {
+      "station_id": 18,
+      "user": "Sandra",
+      "amount": 1.84,
+      "id": 218
+    },
+    {
+      "station_id": 55,
+      "user": "Oskars",
+      "amount": 2.46,
+      "id": 219
+    },
+    {
+      "station_id": 82,
+      "user": "Oskars",
+      "amount": 1.34,
+      "id": 220
+    },
+    {
+      "station_id": 89,
+      "user": "Sandra",
+      "amount": 2.2,
+      "id": 221
+    },
+    {
+      "station_id": 44,
+      "user": "Marta",
+      "amount": 1.42,
+      "id": 222
+    },
+    {
+      "station_id": 55,
+      "user": "Sandra",
+      "amount": 1.95,
+      "id": 223
+    },
+    {
+      "station_id": 19,
+      "user": "Oskars",
+      "amount": 2.31,
+      "id": 224
+    },
+    {
+      "station_id": 43,
+      "user": "Juris",
+      "amount": 2.83,
+      "id": 225
+    },
+    {
+      "station_id": 80,
+      "user": "Marta",
+      "amount": 2.18,
+      "id": 226
+    },
+    {
+      "station_id": 92,
+      "user": "Andris",
+      "amount": 2.33,
+      "id": 227
+    },
+    {
+      "station_id": 79,
+      "user": "Juris",
+      "amount": 1.35,
+      "id": 228
+    },
+    {
+      "station_id": 48,
+      "user": "Līga",
+      "amount": 2.09,
+      "id": 229
+    },
+    {
+      "station_id": 83,
+      "user": "Juris",
+      "amount": 2.85,
+      "id": 230
+    },
+    {
+      "station_id": 98,
+      "user": "Jānis",
+      "amount": 2.42,
+      "id": 231
+    },
+    {
+      "station_id": 5,
+      "user": "Marta",
+      "amount": 2.05,
+      "id": 232
+    },
+    {
+      "station_id": 25,
+      "user": "Jānis",
+      "amount": 2.08,
+      "id": 233
+    },
+    {
+      "station_id": 57,
+      "user": "Juris",
+      "amount": 2.87,
+      "id": 234
+    },
+    {
+      "station_id": 97,
+      "user": "Jānis",
+      "amount": 2.8,
+      "id": 235
+    },
+    {
+      "station_id": 58,
+      "user": "Līga",
+      "amount": 2.0,
+      "id": 236
+    },
+    {
+      "station_id": 57,
+      "user": "Oskars",
+      "amount": 1.82,
+      "id": 237
+    },
+    {
+      "station_id": 32,
+      "user": "Marta",
+      "amount": 1.42,
+      "id": 238
+    },
+    {
+      "station_id": 2,
+      "user": "Līga",
+      "amount": 2.08,
+      "id": 239
+    },
+    {
+      "station_id": 21,
+      "user": "Līga",
+      "amount": 2.44,
+      "id": 240
+    },
+    {
+      "station_id": 86,
+      "user": "Marta",
+      "amount": 1.79,
+      "id": 241
+    },
+    {
+      "station_id": 14,
+      "user": "Helēna",
+      "amount": 1.56,
+      "id": 242
+    },
+    {
+      "station_id": 59,
+      "user": "Sandra",
+      "amount": 2.87,
+      "id": 243
+    },
+    {
+      "station_id": 6,
+      "user": "Oskars",
+      "amount": 2.83,
+      "id": 244
+    },
+    {
+      "station_id": 57,
+      "user": "Andris",
+      "amount": 2.53,
+      "id": 245
+    },
+    {
+      "station_id": 5,
+      "user": "Oskars",
+      "amount": 1.44,
+      "id": 246
+    },
+    {
+      "station_id": 96,
+      "user": "Līga",
+      "amount": 2.84,
+      "id": 247
+    },
+    {
+      "station_id": 61,
+      "user": "Sandra",
+      "amount": 1.63,
+      "id": 248
+    },
+    {
+      "station_id": 47,
+      "user": "Juris",
+      "amount": 1.31,
+      "id": 249
+    },
+    {
+      "station_id": 1,
+      "user": "Jānis",
+      "amount": 1.94,
+      "id": 250
+    },
+    {
+      "station_id": 29,
+      "user": "Helēna",
+      "amount": 1.47,
+      "id": 251
+    },
+    {
+      "station_id": 84,
+      "user": "Oskars",
+      "amount": 2.66,
+      "id": 252
+    },
+    {
+      "station_id": 24,
+      "user": "Sandra",
+      "amount": 1.37,
+      "id": 253
+    },
+    {
+      "station_id": 88,
+      "user": "Jānis",
+      "amount": 1.49,
+      "id": 254
+    },
+    {
+      "station_id": 45,
+      "user": "Oskars",
+      "amount": 1.78,
+      "id": 255
+    },
+    {
+      "station_id": 22,
+      "user": "Sandra",
+      "amount": 1.84,
+      "id": 256
+    },
+    {
+      "station_id": 30,
+      "user": "Sandra",
+      "amount": 1.54,
+      "id": 257
+    },
+    {
+      "station_id": 60,
+      "user": "Sandra",
+      "amount": 1.74,
+      "id": 258
+    },
+    {
+      "station_id": 64,
+      "user": "Sandra",
+      "amount": 2.7,
+      "id": 259
+    },
+    {
+      "station_id": 96,
+      "user": "Jānis",
+      "amount": 2.25,
+      "id": 260
+    },
+    {
+      "station_id": 29,
+      "user": "Andris",
+      "amount": 2.9,
+      "id": 261
+    },
+    {
+      "station_id": 95,
+      "user": "Juris",
+      "amount": 2.85,
+      "id": 262
+    },
+    {
+      "station_id": 45,
+      "user": "Andris",
+      "amount": 1.87,
+      "id": 263
+    },
+    {
+      "station_id": 22,
+      "user": "Jānis",
+      "amount": 1.49,
+      "id": 264
+    },
+    {
+      "station_id": 5,
+      "user": "Juris",
+      "amount": 1.38,
+      "id": 265
+    },
+    {
+      "station_id": 87,
+      "user": "Marta",
+      "amount": 1.39,
+      "id": 266
+    },
+    {
+      "station_id": 15,
+      "user": "Juris",
+      "amount": 2.52,
+      "id": 267
+    },
+    {
+      "station_id": 81,
+      "user": "Līga",
+      "amount": 2.04,
+      "id": 268
+    },
+    {
+      "station_id": 40,
+      "user": "Oskars",
+      "amount": 2.8,
+      "id": 269
+    },
+    {
+      "station_id": 96,
+      "user": "Marta",
+      "amount": 2.6,
+      "id": 270
+    },
+    {
+      "station_id": 62,
+      "user": "Andris",
+      "amount": 2.52,
+      "id": 271
+    },
+    {
+      "station_id": 40,
+      "user": "Andris",
+      "amount": 1.85,
+      "id": 272
+    },
+    {
+      "station_id": 77,
+      "user": "Līga",
+      "amount": 1.93,
+      "id": 273
+    },
+    {
+      "station_id": 59,
+      "user": "Marta",
+      "amount": 2.0,
+      "id": 274
+    },
+    {
+      "station_id": 92,
+      "user": "Marta",
+      "amount": 2.11,
+      "id": 275
+    },
+    {
+      "station_id": 11,
+      "user": "Helēna",
+      "amount": 2.71,
+      "id": 276
+    },
+    {
+      "station_id": 3,
+      "user": "Jānis",
+      "amount": 1.56,
+      "id": 277
+    },
+    {
+      "station_id": 44,
+      "user": "Andris",
+      "amount": 2.56,
+      "id": 278
+    },
+    {
+      "station_id": 17,
+      "user": "Marta",
+      "amount": 1.95,
+      "id": 279
+    },
+    {
+      "station_id": 32,
+      "user": "Juris",
+      "amount": 1.71,
+      "id": 280
+    },
+    {
+      "station_id": 98,
+      "user": "Oskars",
+      "amount": 2.1,
+      "id": 281
+    },
+    {
+      "station_id": 46,
+      "user": "Andris",
+      "amount": 1.99,
+      "id": 282
+    },
+    {
+      "station_id": 75,
+      "user": "Jānis",
+      "amount": 2.13,
+      "id": 283
+    },
+    {
+      "station_id": 51,
+      "user": "Juris",
+      "amount": 2.07,
+      "id": 284
+    },
+    {
+      "station_id": 32,
+      "user": "Sandra",
+      "amount": 2.17,
+      "id": 285
+    },
+    {
+      "station_id": 15,
+      "user": "Sandra",
+      "amount": 2.34,
+      "id": 286
+    },
+    {
+      "station_id": 44,
+      "user": "Jānis",
+      "amount": 2.36,
+      "id": 287
+    },
+    {
+      "station_id": 22,
+      "user": "Marta",
+      "amount": 2.77,
+      "id": 288
+    },
+    {
+      "station_id": 74,
+      "user": "Sandra",
+      "amount": 1.37,
+      "id": 289
+    },
+    {
+      "station_id": 57,
+      "user": "Marta",
+      "amount": 2.21,
+      "id": 290
+    },
+    {
+      "station_id": 57,
+      "user": "Juris",
+      "amount": 2.78,
+      "id": 291
+    },
+    {
+      "station_id": 16,
+      "user": "Līga",
+      "amount": 2.48,
+      "id": 292
+    },
+    {
+      "station_id": 65,
+      "user": "Līga",
+      "amount": 1.85,
+      "id": 293
+    },
+    {
+      "station_id": 62,
+      "user": "Helēna",
+      "amount": 2.52,
+      "id": 294
+    },
+    {
+      "station_id": 25,
+      "user": "Jānis",
+      "amount": 1.47,
+      "id": 295
+    },
+    {
+      "station_id": 16,
+      "user": "Juris",
+      "amount": 2.41,
+      "id": 296
+    },
+    {
+      "station_id": 61,
+      "user": "Oskars",
+      "amount": 1.72,
+      "id": 297
+    },
+    {
+      "station_id": 25,
+      "user": "Marta",
+      "amount": 2.37,
+      "id": 298
+    },
+    {
+      "station_id": 31,
+      "user": "Oskars",
+      "amount": 2.61,
+      "id": 299
+    },
+    {
+      "station_id": 26,
+      "user": "Līga",
+      "amount": 1.44,
+      "id": 300
+    }
+  ]
+}
