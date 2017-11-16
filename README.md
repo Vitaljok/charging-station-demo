@@ -67,3 +67,9 @@ Adding basic application page structure: navigation *header* with links to List 
 * Created new component using `ng generate component StationTree`
 * Used list component as base for design and data fetching routines
 * Added new `<app-station-tree>` tag in `app.component.html`
+
+## Step 9 - Adding routing between views
+* Defined application routes in `app.module.ts`
+* Used `<router-outlet>` in application template
+* Updated navigation links with `routerLink` directive
+* Styled active navigation link with `routerLinkActive` directive
