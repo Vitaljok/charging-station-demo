@@ -21,6 +21,6 @@ export class DataService {
   getStations(): Observable<ChargingStation[]> {
     // WARNING!
     // Fake processing delay used for demonstration purposes.
-    return Observable.of(this.stations).delay(2000);
+    return Observable.of(this.stations).delay(500);
   }
 }

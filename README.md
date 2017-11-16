@@ -62,3 +62,8 @@ Adding basic application page structure: navigation *header* with links to List 
 * Moved list design to `station-list.component.html`
 * Moved data fetching to `station-list.component.ts`
 * Used new `<app-station-list>` tag in `app.component.html`
+
+## Step 8 - Creating new component for tree of charging stations
+* Created new component using `ng generate component StationTree`
+* Used list component as base for design and data fetching routines
+* Added new `<app-station-tree>` tag in `app.component.html`
