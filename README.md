@@ -73,3 +73,10 @@ Adding basic application page structure: navigation *header* with links to List 
 * Used `<router-outlet>` in application template
 * Updated navigation links with `routerLink` directive
 * Styled active navigation link with `routerLinkActive` directive
+
+## Step 10 - Fetching data from back-end API
+* Adding `HttpModule` to `app.module.ts`
+* Changing `DataService` implementation to use provided back-end API
+* (alternative)
+  * install [JSON server](https://github.com/typicode/json-server) using `npm install -g json-server`
+  * run own fake back-end API `json-server db.json`
