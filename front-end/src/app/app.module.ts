@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DataService } from "./data.service";
+import { StationListComponent } from './station-list/station-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StationListComponent
   ],
   imports: [
     BrowserModule

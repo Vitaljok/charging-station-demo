@@ -56,3 +56,9 @@ Adding basic application page structure: navigation *header* with links to List 
 ## Step 6 - Moving to asynchronous service processing using Observables
 * Changed service method to return `Observable`
 * Used subscription approach to get data asynchronously
+
+## Step 7 - Creating separate component for list of charging stations
+* Created new component using `ng generate component StationList` (it also adds new component to `app.module.ts` declarations)
+* Moved list design to `station-list.component.html`
+* Moved data fetching to `station-list.component.ts`
+* Used new `<app-station-list>` tag in `app.component.html`
