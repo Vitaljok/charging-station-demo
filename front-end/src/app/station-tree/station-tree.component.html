@@ -4,10 +4,8 @@
     <a class="list-group-item list-group-item-action list-group-item-primary"
       href="#">{{city.name}}</a>
     <div class="list-group">
-      <a class="list-group-item list-group-item-action pl-5" href="#" *ngFor="let st of city.stations"
-        [ngClass]="{'list-group-item-success': st.isActive, 'list-group-item-danger': !st.isActive}">
-        {{st.address}}
-      </a>
+      <app-station-list-item *ngFor="let st of city.stations" [isActive]="st.isActive"
+        [isChild]="true" text="{{st.address}}"></app-station-list-item>
     </div>
   </ng-container>
 </div>

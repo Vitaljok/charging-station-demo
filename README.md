@@ -80,3 +80,9 @@ Adding basic application page structure: navigation *header* with links to List 
 * (alternative)
   * install [JSON server](https://github.com/typicode/json-server) using `npm install -g json-server`
   * run own fake back-end API `json-server db.json`
+
+## Step 11 - Refactoring list items to separate component
+* Created new component using `ng generate component StationListItem`
+* Added `@Input()` parameters to component
+* Used list and tree items as base for design
+* Replaced list and tree items with new `<app-station-list-item>` tag

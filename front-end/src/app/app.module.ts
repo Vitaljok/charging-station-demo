@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DataService } from "./data.service";
 import { StationListComponent } from './station-list/station-list.component';
 import { StationTreeComponent } from './station-tree/station-tree.component';
+import { StationListItemComponent } from './station-list-item/station-list-item.component';
 
 
 const appRoutes: Routes = [
@@ -28,7 +29,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     StationListComponent,
-    StationTreeComponent
+    StationTreeComponent,
+    StationListItemComponent
   ],
   imports: [
     BrowserModule,
