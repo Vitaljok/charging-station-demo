@@ -2,9 +2,9 @@
 <div class="list-group d-inline-block">
   <ng-container *ngFor="let city of cities">
     <a class="list-group-item list-group-item-action list-group-item-primary"
-      href="#">{{city.name}}</a>
+      routerLink=".">{{city.name}}</a>
     <div class="list-group">
-      <a class="list-group-item list-group-item-action pl-5" href="#" *ngFor="let st of city.stations"
+      <a class="list-group-item list-group-item-action pl-5" *ngFor="let st of city.stations" [routerLink]="'/stations/' + st.id"
         [ngClass]="{'list-group-item-success': st.isActive, 'list-group-item-danger': !st.isActive}">
         {{st.address}}
       </a>

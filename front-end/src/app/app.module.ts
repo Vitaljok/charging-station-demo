@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DataService } from "./data.service";
 import { StationListComponent } from './station-list/station-list.component';
 import { StationTreeComponent } from './station-tree/station-tree.component';
+import { StationDetailsComponent } from './station-details/station-details.component';
 
 
 const appRoutes: Routes = [
@@ -19,6 +20,10 @@ const appRoutes: Routes = [
     component: StationTreeComponent
   },
   {
+    path: 'stations/:id',
+    component: StationDetailsComponent
+  },
+  {
     path: '**',
     redirectTo: 'list'
   }
@@ -28,7 +33,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     StationListComponent,
-    StationTreeComponent
+    StationTreeComponent,
+    StationDetailsComponent
   ],
   imports: [
     BrowserModule,

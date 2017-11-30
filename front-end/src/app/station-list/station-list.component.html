@@ -1,7 +1,7 @@
 <h3>List of charging stations</h3>
 <div class="list-group d-inline-block">
-  <a class="list-group-item list-group-item-action" href="#"
-    *ngFor="let st of stations"
+  <a class="list-group-item list-group-item-action"
+    *ngFor="let st of stations" [routerLink]="'/stations/' + st.id"
     [ngClass]="{'list-group-item-success': st.isActive, 'list-group-item-danger': !st.isActive}">
     {{st.city}}, {{st.address}}
   </a>

@@ -80,3 +80,9 @@ Adding basic application page structure: navigation *header* with links to List 
 * (alternative)
   * install [JSON server](https://github.com/typicode/json-server) using `npm install -g json-server`
   * run own fake back-end API `json-server db.json`
+
+## Step 11 - Creating new component for station details
+* Created new component using `ng generate component StationDetails`
+* Added parametrized route in `app.module.ts`
+* Retrieving provided route parameter via `ActivatedRoute`
+* Adding `routerLink` to station list and tree components
