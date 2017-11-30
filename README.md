@@ -113,3 +113,7 @@ Adding basic application page structure: navigation *header* with links to List 
 * Adding methods to `DataService`
 * Component initialization changes
 * Adding controls to design
+
+## Step 17 - Form validation
+* Input element validation via styles
+* Whole form validation via in-line variable

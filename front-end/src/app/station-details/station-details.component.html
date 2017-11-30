@@ -1,12 +1,12 @@
 <h1 *ngIf="!station.address && !station.city">New station</h1>
 <h1 *ngIf="station.address || station.city">{{station.address}}, {{station.city}}</h1>
 <div class="col-6">
-  <form>
+  <form #stationForm="ngForm">
     <div class="form-group row">
       <label for="stAddress" class="col-sm-3 col-form-label">Address</label>
       <div class="col-sm-9">
         <input type="text" class="form-control" id="stAddress" name="stAddress"
-          placeholder="Address" [(ngModel)]="station.address">
+          placeholder="Address" [(ngModel)]="station.address" required>
       </div>
     </div>
 
@@ -14,7 +14,8 @@
       <label for="stCity" class="col-sm-3 col-form-label">City</label>
       <div class="col-sm-9">
         <input type="text" class="form-control" id="stCity" name="stCity"
-          placeholder="City" list="cityList" [(ngModel)]="station.city">
+          placeholder="City" list="cityList" [(ngModel)]="station.city"
+          required>
         <datalist id="cityList" name="cityList">
           <option *ngFor="let city of cities" [value]="city"></option>
         </datalist>
@@ -49,13 +50,16 @@
 
     <div class="form-group row">
       <div class="col">
-        <button *ngIf="!isNew" type="submit" class="btn btn-primary" (click)="saveClicked()">Save</button>
-        <button *ngIf="isNew" type="submit" class="btn btn-success" (click)="createClicked()">Create</button>
+        <button *ngIf="!isNew" type="submit" class="btn btn-primary"
+          [class.disabled]="stationForm.invalid || !(stationForm.touched || stationForm.dirty)"
+          (click)="saveClicked()">Save</button>
+        <button *ngIf="isNew" type="submit" class="btn btn-success" [class.disabled]="stationForm.invalid"
+          (click)="createClicked()">Create</button>
         <button type="reset" class="btn btn-secondary" (click)="cancelClicked()">Cancel</button>
-        <button *ngIf="!isNew" type="button" class="btn btn-danger float-right" (click)="deleteClicked()">Delete</button>
+        <button *ngIf="!isNew" type="button" class="btn btn-danger float-right"
+          (click)="deleteClicked()">Delete</button>
       </div>
     </div>
   </form>
 </div>
-
 <pre>{{station | json}}</pre>
