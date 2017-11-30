@@ -102,3 +102,8 @@ Adding basic application page structure: navigation *header* with links to List 
 * Changing `ChargingStation` class to allow parameterless constructor
 * Bi-directional data binding via `[(ngModel)]`
 * Button event binding via `(click)`
+
+## Step 15 - Providing data modifications to back-end
+* Added methods to `DataService`
+* Calling service methods from the component
+* Implemented deleting functionality

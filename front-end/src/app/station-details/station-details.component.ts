@@ -27,10 +27,18 @@ export class StationDetailsComponent implements OnInit {
 
   saveClicked(): void {
     console.log('Saving', this.station);
+    this.service.editStation(this.station)
+      .subscribe((resp) => this.router.navigate(['']), (err) => console.log(err));
   }
 
   cancelClicked(): void {
     console.log('Canceling');
     this.router.navigate(['']);
   }
+
+  deleteClicked(): void {
+    this.service.deleteStation(this.station.id)
+      .subscribe((resp) => this.router.navigate(['']), (err) => console.log(err));
+  }
+
 }

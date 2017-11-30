@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
+import { Http, Response } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/of';
@@ -27,7 +27,15 @@ export class DataService {
 
   getStationDetails(id: number): Observable<ChargingStation> {
     return this.http.get(`/api/stations/${id}`)
-      .map(response => response.json() as ChargingStation)
+      .map(response => response.json() as ChargingStation);
+  }
+
+  editStation(station: ChargingStation): Observable<Response> {
+    return this.http.put(`/api/stations/${station.id}`, station);
+  }
+
+  deleteStation(id: number): Observable<Response> {
+    return this.http.delete(`/api/stations/${id}`);
   }
 
   getStationsFake(): Observable<ChargingStation[]> {
