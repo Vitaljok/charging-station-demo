@@ -107,3 +107,9 @@ Adding basic application page structure: navigation *header* with links to List 
 * Added methods to `DataService`
 * Calling service methods from the component
 * Implemented deleting functionality
+
+## Step 16 - Functionality for creating new stations
+* Defining new route in `app.module.ts`
+* Adding methods to `DataService`
+* Component initialization changes
+* Adding controls to design

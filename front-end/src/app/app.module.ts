@@ -21,8 +21,18 @@ const appRoutes: Routes = [
     component: StationTreeComponent
   },
   {
+    path: 'stations/new',
+    component: StationDetailsComponent,
+    data: {
+      isNew: true
+    }
+  },
+  {
     path: 'stations/:id',
-    component: StationDetailsComponent
+    component: StationDetailsComponent,
+    data: {
+      isNew: false
+    }
   },
   {
     path: '**',

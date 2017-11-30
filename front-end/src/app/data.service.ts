@@ -34,6 +34,10 @@ export class DataService {
     return this.http.put(`/api/stations/${station.id}`, station);
   }
 
+  addStation(station: ChargingStation): Observable<Response> {
+    return this.http.post('/api/stations/', station);
+  }
+
   deleteStation(id: number): Observable<Response> {
     return this.http.delete(`/api/stations/${id}`);
   }
