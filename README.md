@@ -86,3 +86,8 @@ Adding basic application page structure: navigation *header* with links to List 
 * Added parametrized route in `app.module.ts`
 * Retrieving provided route parameter via `ActivatedRoute`
 * Adding `routerLink` to station list and tree components
+
+## Step 12 - Fetching station details from back-end API
+* Adding API call to `DataService`
+* Created `proxy.conf.json` configuration
+* Changed startup script in `package.json`

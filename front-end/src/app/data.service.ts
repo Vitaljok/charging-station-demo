@@ -21,8 +21,13 @@ export class DataService {
   constructor(private http: Http) { }
 
   getStations(): Observable<ChargingStation[]> {
-    return this.http.get('https://data.science.itf.llu.lv/api/stations')
+    return this.http.get('/api/stations')
       .map(response => response.json() as ChargingStation[]);
+  }
+
+  getStationDetails(id: number): Observable<ChargingStation> {
+    return this.http.get(`/api/stations/${id}`)
+      .map(response => response.json() as ChargingStation)
   }
 
   getStationsFake(): Observable<ChargingStation[]> {
