@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from "@angular/router";
+import { ActivatedRoute, Router } from '@angular/router';
 import 'rxjs/add/operator/switchMap';
-import { DataService } from "../data.service";
-import { ChargingStation } from "../domain";
+import { DataService } from '../data.service';
+import { ChargingStation } from '../domain';
 
 @Component({
   selector: 'app-station-details',
@@ -11,6 +11,7 @@ import { ChargingStation } from "../domain";
 })
 export class StationDetailsComponent implements OnInit {
   station: ChargingStation;
+  cities: string[] = ['Rīga', 'Jelgava', 'Ventspils', 'Daugavpils', 'Liepāja', 'Rēzekne'];
 
   constructor(
     private route: ActivatedRoute,

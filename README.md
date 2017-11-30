@@ -91,3 +91,8 @@ Adding basic application page structure: navigation *header* with links to List 
 * Adding API call to `DataService`
 * Created `proxy.conf.json` configuration
 * Changed startup script in `package.json`
+
+## Step 13 - Details view design
+* Form structure via `form-group`
+* Various input elements
+* Dynamic city dropdown list
