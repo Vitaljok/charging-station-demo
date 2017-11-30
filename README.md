@@ -96,3 +96,9 @@ Adding basic application page structure: navigation *header* with links to List 
 * Form structure via `form-group`
 * Various input elements
 * Dynamic city dropdown list
+
+## Step 14 - Data binding to details form
+* Added `FormsModule` to `app.module.ts`
+* Changing `ChargingStation` class to allow parameterless constructor
+* Bi-directional data binding via `[(ngModel)]`
+* Button event binding via `(click)`

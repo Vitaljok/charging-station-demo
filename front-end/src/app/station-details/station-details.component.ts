@@ -10,7 +10,7 @@ import { ChargingStation } from '../domain';
   styleUrls: ['./station-details.component.css']
 })
 export class StationDetailsComponent implements OnInit {
-  station: ChargingStation;
+  station: ChargingStation = new ChargingStation();
   cities: string[] = ['Rīga', 'Jelgava', 'Ventspils', 'Daugavpils', 'Liepāja', 'Rēzekne'];
 
   constructor(
@@ -23,5 +23,14 @@ export class StationDetailsComponent implements OnInit {
     this.route.params
       .switchMap((params) => this.service.getStationDetails(params['id']))
       .subscribe((data) => this.station = data, (err) => this.router.navigate(['']));
+  }
+
+  saveClicked(): void {
+    console.log('Saving', this.station);
+  }
+
+  cancelClicked(): void {
+    console.log('Canceling');
+    this.router.navigate(['']);
   }
 }
