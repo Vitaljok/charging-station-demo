@@ -51,9 +51,9 @@
     <div class="form-group row">
       <div class="col">
         <button *ngIf="!isNew" type="submit" class="btn btn-primary"
-          [class.disabled]="stationForm.invalid || !(stationForm.touched || stationForm.dirty)"
+          [disabled]="stationForm.invalid || !(stationForm.touched || stationForm.dirty)"
           (click)="saveClicked()">Save</button>
-        <button *ngIf="isNew" type="submit" class="btn btn-success" [class.disabled]="stationForm.invalid"
+        <button *ngIf="isNew" type="submit" class="btn btn-success" [disabled]="stationForm.invalid"
           (click)="createClicked()">Create</button>
         <button type="reset" class="btn btn-secondary" (click)="cancelClicked()">Cancel</button>
         <button *ngIf="!isNew" type="button" class="btn btn-danger float-right"
