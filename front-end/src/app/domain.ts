@@ -3,8 +3,8 @@ export class ChargingStation {
   power: number;
   price: number;
   // class fields defined via constructor parameters
-  constructor(public id: number,
-    public city: string,
-    public address: string,
+  constructor(public id?: number,
+    public city?: string,
+    public address?: string,
     public isActive: boolean = true) { }
 }

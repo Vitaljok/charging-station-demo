@@ -1,0 +1,8 @@
+{
+  "/api/*": {
+    "target": "https://data.science.itf.llu.lv",
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "secure": false
+  }
+}

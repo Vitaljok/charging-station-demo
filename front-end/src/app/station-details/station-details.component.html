@@ -1,0 +1,65 @@
+<h1 *ngIf="!station.address && !station.city">New station</h1>
+<h1 *ngIf="station.address || station.city">{{station.address}}, {{station.city}}</h1>
+<div class="col-6">
+  <form #stationForm="ngForm">
+    <div class="form-group row">
+      <label for="stAddress" class="col-sm-3 col-form-label">Address</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="stAddress" name="stAddress"
+          placeholder="Address" [(ngModel)]="station.address" required>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="stCity" class="col-sm-3 col-form-label">City</label>
+      <div class="col-sm-9">
+        <input type="text" class="form-control" id="stCity" name="stCity"
+          placeholder="City" list="cityList" [(ngModel)]="station.city"
+          required>
+        <datalist id="cityList" name="cityList">
+          <option *ngFor="let city of cities" [value]="city"></option>
+        </datalist>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="stPower" class="col-sm-3 col-form-label">Power</label>
+      <div class="col-sm-9">
+        <input type="number" class="form-control" id="stPower" name="stPower"
+          placeholder="Power" min="0" step="0.1" [(ngModel)]="station.power">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="stPrice" class="col-sm-3 col-form-label">Price</label>
+      <div class="col-sm-9">
+        <input type="number" class="form-control" id="stPrice" name="stPrice"
+          placeholder="Price" min="0" step="0.01" [(ngModel)]="station.price">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="offset-sm-3 col-sm-9">
+        <div class="form-check">
+          <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="stActive" [(ngModel)]="station.isActive">Active
+        </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="col">
+        <button *ngIf="!isNew" type="submit" class="btn btn-primary"
+          [class.disabled]="stationForm.invalid || !(stationForm.touched || stationForm.dirty)"
+          (click)="saveClicked()">Save</button>
+        <button *ngIf="isNew" type="submit" class="btn btn-success" [class.disabled]="stationForm.invalid"
+          (click)="createClicked()">Create</button>
+        <button type="reset" class="btn btn-secondary" (click)="cancelClicked()">Cancel</button>
+        <button *ngIf="!isNew" type="button" class="btn btn-danger float-right"
+          (click)="deleteClicked()">Delete</button>
+      </div>
+    </div>
+  </form>
+</div>
+<pre>{{station | json}}</pre>

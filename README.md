@@ -80,3 +80,40 @@ Adding basic application page structure: navigation *header* with links to List 
 * (alternative)
   * install [JSON server](https://github.com/typicode/json-server) using `npm install -g json-server`
   * run own fake back-end API `json-server db.json`
+
+## Step 11 - Creating new component for station details
+* Created new component using `ng generate component StationDetails`
+* Added parametrized route in `app.module.ts`
+* Retrieving provided route parameter via `ActivatedRoute`
+* Adding `routerLink` to station list and tree components
+
+## Step 12 - Fetching station details from back-end API
+* Adding API call to `DataService`
+* Created `proxy.conf.json` configuration
+* Changed startup script in `package.json`
+
+## Step 13 - Details view design
+* Form structure via `form-group`
+* Various input elements
+* Dynamic city dropdown list
+
+## Step 14 - Data binding to details form
+* Added `FormsModule` to `app.module.ts`
+* Changing `ChargingStation` class to allow parameterless constructor
+* Bi-directional data binding via `[(ngModel)]`
+* Button event binding via `(click)`
+
+## Step 15 - Providing data modifications to back-end
+* Added methods to `DataService`
+* Calling service methods from the component
+* Implemented deleting functionality
+
+## Step 16 - Functionality for creating new stations
+* Defining new route in `app.module.ts`
+* Adding methods to `DataService`
+* Component initialization changes
+* Adding controls to design
+
+## Step 17 - Form validation
+* Input element validation via styles
+* Whole form validation via in-line variable
