@@ -14,6 +14,12 @@ To starting project development:
 * install dependencies `npm install`
 * start local development server `ng serve`
 
+# Get started with back-end
+To start project back-end development:
+* install [IntelliJ IDEA Community Edition](https://www.jetbrains.com/idea/download/) or other IDE of your choice
+* clone repository `git clone https://github.com/Vitaljok/charging-station-demo.git`
+* import Gradle project from `./web-api/` folder
+
 Use `git pull` to get fresh updates from repository.
 
 # Workshop steps
@@ -117,3 +123,7 @@ Adding basic application page structure: navigation *header* with links to List 
 ## Step 17 - Form validation
 * Input element validation via styles
 * Whole form validation via in-line variable
+
+## Step 18 - Creating back-end project
+* Created new Gradle + Java project via wizard
+* Added `.gitignore` file
