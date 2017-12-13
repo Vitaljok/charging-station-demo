@@ -127,3 +127,8 @@ Adding basic application page structure: navigation *header* with links to List 
 ## Step 18 - Creating back-end project
 * Created new Gradle + Java project via wizard
 * Added `.gitignore` file
+
+## Step 19 - Creating plain Java application
+* `Application` class with `main` method
+* `PaymentService` class with calculations
+* Unit tests for service
