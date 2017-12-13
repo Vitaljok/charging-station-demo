@@ -132,3 +132,13 @@ Adding basic application page structure: navigation *header* with links to List 
 * `Application` class with `main` method
 * `PaymentService` class with calculations
 * Unit tests for service
+
+## Step 20 - Moving application to Spring container
+* Adding Spring Bood dependencies
+* Refactoring `Application` class
+* Adding unit tests for application
+
+## Step 21 - Migrating to Web application
+* Created `PaymentController`
+* Request mapping and response
+* Refactoring `Application` class
