@@ -142,3 +142,8 @@ Adding basic application page structure: navigation *header* with links to List 
 * Created `PaymentController`
 * Request mapping and response
 * Refactoring `Application` class
+
+## Step 22 - REST controller and parameterless
+* Created `StationBean` class
+* Added `lombok` dependency
+* Created `StationController`
