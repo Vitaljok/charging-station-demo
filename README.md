@@ -147,3 +147,8 @@ Adding basic application page structure: navigation *header* with links to List 
 * Created `StationBean` class
 * Added `lombok` dependency
 * Created `StationController`
+
+## Step 23 - In-memory stations storage
+* Created `StationService`
+* In-memory array storage of `Station` entities
+* Implemented CRUD methods on service and controller
