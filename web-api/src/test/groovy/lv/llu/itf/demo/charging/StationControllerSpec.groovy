@@ -18,4 +18,14 @@ class StationControllerSpec extends Specification {
             123     | "first"
             234     | null
     }
+
+    def "should get station list"() {
+        given:
+            def controller = new StationController()
+        when:
+            def list = controller.getStationList()
+        then:
+            list.size() == 3
+            list.collect { it.id } == [1l, 2l, 3l]
+    }
 }

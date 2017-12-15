@@ -143,7 +143,6 @@ Adding basic application page structure: navigation *header* with links to List 
 * Request mapping and response
 * Refactoring `Application` class
 
-## Step 22 - REST controller and parameterless
+## Step 22 - REST controller and parameters
 * Created `StationBean` class
-* Added `lombok` dependency
 * Created `StationController`
