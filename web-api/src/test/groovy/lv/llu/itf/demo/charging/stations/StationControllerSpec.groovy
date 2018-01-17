@@ -1,4 +1,4 @@
-package lv.llu.itf.demo.charging
+package lv.llu.itf.demo.charging.stations
 
 import spock.lang.Specification
 

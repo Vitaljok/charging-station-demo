@@ -146,3 +146,7 @@ Adding basic application page structure: navigation *header* with links to List 
 ## Step 22 - REST controller and parameters
 * Created `StationBean` class
 * Created `StationController`
+
+## Step 23 - Refactoring
+* Added Lombok dependency
+* Moved classes to `stations` package

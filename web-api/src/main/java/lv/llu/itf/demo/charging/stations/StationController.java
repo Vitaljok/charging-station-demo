@@ -1,4 +1,4 @@
-package lv.llu.itf.demo.charging;
+package lv.llu.itf.demo.charging.stations;
 
 import org.springframework.web.bind.annotation.*;
 
