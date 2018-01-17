@@ -150,3 +150,9 @@ Adding basic application page structure: navigation *header* with links to List 
 ## Step 23 - Refactoring
 * Added Lombok dependency
 * Moved classes to `stations` package
+
+## Step 24 - Database setup
+* Added Spring JPA dependency
+* Added H2 embedded database
+* Custom configuration in `application.yml`
+* Simple `Station` entity
