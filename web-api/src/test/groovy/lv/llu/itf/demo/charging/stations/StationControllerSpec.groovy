@@ -6,7 +6,7 @@ class StationControllerSpec extends Specification {
 
     def "should get station by id"() {
         given:
-            def controller = new StationController()
+        def controller = new StationController(null)
         expect:
             with(controller.getStation(paramId, paramName)) {
                 id == paramId
@@ -21,11 +21,11 @@ class StationControllerSpec extends Specification {
 
     def "should get station list"() {
         given:
-            def controller = new StationController()
+        def service = Mock(StationService)
+        def controller = new StationController(service)
         when:
             def list = controller.getStationList()
         then:
-            list.size() == 3
-            list.collect { it.id } == [1l, 2l, 3l]
+        1 * service.getStationList()
     }
 }

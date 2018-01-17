@@ -156,3 +156,9 @@ Adding basic application page structure: navigation *header* with links to List 
 * Added H2 embedded database
 * Custom configuration in `application.yml`
 * Simple `Station` entity
+
+## Step 25 - Query database for REST requests
+* Created `StationRepository`
+* Created `StationService`
+* Initialized database
+* Modified `StationController`

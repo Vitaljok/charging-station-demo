@@ -1,21 +1,24 @@
 package lv.llu.itf.demo.charging.stations;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
 @RequestMapping("/stations")
 public class StationController {
 
+    private final StationService service;
+
+    @Autowired
+    public StationController(StationService service) {
+        this.service = service;
+    }
+
     @GetMapping
     public List<StationBean> getStationList() {
-        ArrayList<StationBean> list = new ArrayList<>();
-        list.add(new StationBean(1, "first", 1.111));
-        list.add(new StationBean(2, "second", 2.222));
-        list.add(new StationBean(3, "third", 3.333));
-        return list;
+        return service.getStationList();
     }
 
     @GetMapping("/{id}")
