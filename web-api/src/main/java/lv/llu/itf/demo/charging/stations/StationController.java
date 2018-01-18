@@ -21,6 +21,11 @@ public class StationController {
         return service.getStationList();
     }
 
+    @PostMapping
+    public StationBean createStation(@RequestBody StationBean bean) {
+        return service.createStation(bean);
+    }
+
     @GetMapping("/{id}")
     public StationBean getStation(@PathVariable long id,
                                   @RequestParam(required = false) String name) {

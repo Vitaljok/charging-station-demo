@@ -6,14 +6,24 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import java.time.LocalDateTime;
 
 @Entity
 @Data
 public class Station {
     @Id
     @GeneratedValue
-    Long id;
+    private Long id;
+
     @Column(length = 30, nullable = false)
-    String name;
-    Double power;
+    private String name;
+
+    private Double power;
+
+    @Column(nullable = false)
+    private String createdBy;
+
+    @Column(nullable = false)
+    private LocalDateTime createdTs;
+
 }

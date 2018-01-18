@@ -162,3 +162,8 @@ Adding basic application page structure: navigation *header* with links to List 
 * Created `StationService`
 * Initialized database
 * Modified `StationController`
+
+## Step 26 - End-point for creating stations
+* Added `POST` endpoint definition to controller
+* Implemented service method for station creation
+* Additional fields in `Station` entity

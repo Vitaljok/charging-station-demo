@@ -3,6 +3,7 @@ package lv.llu.itf.demo.charging.stations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -24,12 +25,28 @@ public class StationService {
         Station entity = new Station();
         entity.setName(name);
         entity.setPower(power);
+        entity.setCreatedBy("init user");
+        entity.setCreatedTs(LocalDateTime.now());
         return entity;
     }
 
     public List<StationBean> getStationList() {
         return repository.findAll().stream()
-                .map(entity -> new StationBean(entity.id, entity.name, entity.power))
+                .map(this::transform)
                 .collect(Collectors.toList());
+    }
+
+    public StationBean createStation(StationBean bean) {
+        Station station = new Station();
+        station.setName(bean.getName());
+        station.setPower(bean.getPower());
+        station.setCreatedBy("fake user");
+        station.setCreatedTs(LocalDateTime.now());
+        Station savedStation = repository.save(station);
+        return transform(savedStation);
+    }
+
+    private StationBean transform(Station entity) {
+        return new StationBean(entity.getId(), entity.getName(), entity.getPower());
     }
 }
