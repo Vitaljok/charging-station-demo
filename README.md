@@ -167,3 +167,8 @@ Adding basic application page structure: navigation *header* with links to List 
 * Added `POST` endpoint definition to controller
 * Implemented service method for station creation
 * Additional fields in `Station` entity
+
+## Step 27 - Station details
+* Created `StationDetailsBean`
+* Implemented method for station details
+* Timestamps conversion dependencies and configuration
