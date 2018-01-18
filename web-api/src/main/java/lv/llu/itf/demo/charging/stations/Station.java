@@ -2,11 +2,10 @@ package lv.llu.itf.demo.charging.stations;
 
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
@@ -25,5 +24,8 @@ public class Station {
 
     @Column(nullable = false)
     private LocalDateTime createdTs;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "station")
+    private List<StationEvent> events = new ArrayList<>();
 
 }

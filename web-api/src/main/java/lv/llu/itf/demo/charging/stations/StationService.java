@@ -31,6 +31,15 @@ public class StationService {
         entity.setPower(power);
         entity.setCreatedBy("init user");
         entity.setCreatedTs(LocalDateTime.now());
+
+        for (int i = 0; i < 5; i++) {
+            StationEvent event = new StationEvent();
+            event.setTs(LocalDateTime.now());
+            event.setMessage("Event #" + i);
+            event.setStation(entity);
+            entity.getEvents().add(event);
+        }
+
         return entity;
     }
 
@@ -61,6 +70,12 @@ public class StationService {
         bean.setPower(entity.getPower());
         bean.setCreatedBy(entity.getCreatedBy());
         bean.setCreatedTs(entity.getCreatedTs().atZone(ZoneId.systemDefault()));
+        bean.setEventMessages(
+                entity.getEvents()
+                        .stream()
+                        .map(StationEvent::getMessage)
+                        .collect(Collectors.toList())
+        );
         return bean;
     }
 

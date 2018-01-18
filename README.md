@@ -177,3 +177,8 @@ Adding basic application page structure: navigation *header* with links to List 
 * Added `PUT` endpoint
 * Implemented service method
 * User `@Transactional` annotation
+
+## Step 29 - One-To-Many relations
+* Created `StationEvent` entity
+* Defined `@OneToMany` mapping
+* Updated service
