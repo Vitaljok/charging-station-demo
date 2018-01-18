@@ -4,12 +4,14 @@ import lv.llu.itf.demo.charging.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@Transactional
 public class StationService {
 
     private final StationRepository repository;
@@ -67,6 +69,12 @@ public class StationService {
         if (station == null) {
             throw new NotFoundException();
         }
+        return transformDetails(station);
+    }
+
+    public StationDetailsBean editStation(Long id, StationBean bean) {
+        Station station = repository.findOne(id);
+        station.setPower(bean.getPower());
         return transformDetails(station);
     }
 }

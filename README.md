@@ -172,3 +172,8 @@ Adding basic application page structure: navigation *header* with links to List 
 * Created `StationDetailsBean`
 * Implemented method for station details
 * Timestamps conversion dependencies and configuration
+
+## Step 28 - Station edit
+* Added `PUT` endpoint
+* Implemented service method
+* User `@Transactional` annotation

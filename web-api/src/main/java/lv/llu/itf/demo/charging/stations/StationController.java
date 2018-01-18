@@ -30,4 +30,9 @@ public class StationController {
     public StationDetailsBean getStation(@PathVariable Long id) {
         return service.getStationById(id);
     }
+
+    @PutMapping("/{id}")
+    public StationDetailsBean editStation(@PathVariable Long id, @RequestBody StationBean bean) {
+        return service.editStation(id, bean);
+    }
 }
