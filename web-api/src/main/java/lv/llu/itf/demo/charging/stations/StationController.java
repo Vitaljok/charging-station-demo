@@ -27,8 +27,7 @@ public class StationController {
     }
 
     @GetMapping("/{id}")
-    public StationBean getStation(@PathVariable long id,
-                                  @RequestParam(required = false) String name) {
-        return new StationBean(id, name, 12.3456);
+    public StationDetailsBean getStation(@PathVariable Long id) {
+        return service.getStationById(id);
     }
 }

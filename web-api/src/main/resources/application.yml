@@ -12,3 +12,7 @@ spring.jpa:
   show-sql: true
   hibernate.ddl-auto: create # update, none, validate, update, create, create-drop
   properties.hibernate.format_sql: true
+
+# Java 8 time
+spring.jackson:
+    serialization.write_dates_as_timestamps: false
