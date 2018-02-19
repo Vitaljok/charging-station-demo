@@ -190,3 +190,13 @@ Adding basic application page structure: navigation *header* with links to List 
 ## Step 31 - Setting users
 * Created `SecurityConfig`
 * Added in-memory users
+
+## Step 32 - Form login and authorization
+* Added `HttpSecurity` config
+* Defined global authorization rules
+* `PreAuthorize` rules
+
+## Step 33 - OAuth 2.0 authentication
+* Created and configured `auth-server` module
+* Modified `web-api` configuration for token authentication
+

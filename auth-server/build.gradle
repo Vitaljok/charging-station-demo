@@ -1,0 +1,17 @@
+group 'lv.llu.itf.demo.auth'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web:1.5.9.RELEASE')
+    compile('org.springframework.boot:spring-boot-starter-security:1.5.9.RELEASE')
+    compile('org.springframework.security.oauth:spring-security-oauth2:2.2.1.RELEASE')
+    compile('org.springframework.security:spring-security-jwt:1.0.9.RELEASE')
+}
