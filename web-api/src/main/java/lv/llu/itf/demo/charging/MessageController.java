@@ -1,5 +1,6 @@
 package lv.llu.itf.demo.charging;
 
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,12 +15,12 @@ public class MessageController {
     }
 
     @GetMapping("/user")
-    public String getUserMessage() {
-        return "User message";
+    public String getUserMessage(Authentication auth) {
+        return "User message: Welcome, " + auth.getName();
     }
 
     @GetMapping("/admin")
-    public String getAdminMessage() {
-        return "Admin message";
+    public String getAdminMessage(Authentication auth) {
+        return "Admin message: Hi, " + auth.getName();
     }
 }

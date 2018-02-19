@@ -186,3 +186,7 @@ Adding basic application page structure: navigation *header* with links to List 
 ## Step 30 - Enabling security
 * Created `MessageController` for demonstration
 * Added Spring Security dependency
+
+## Step 31 - Setting users
+* Created `SecurityConfig`
+* Added in-memory users
