@@ -176,9 +176,13 @@ Adding basic application page structure: navigation *header* with links to List 
 ## Step 28 - Station edit
 * Added `PUT` endpoint
 * Implemented service method
-* User `@Transactional` annotation
+* Used `@Transactional` annotation
 
 ## Step 29 - One-To-Many relations
 * Created `StationEvent` entity
 * Defined `@OneToMany` mapping
 * Updated service
+
+## Step 30 - Enabling security
+* Created `MessageController` for demonstration
+* Added Spring Security dependency
